@@ -4,7 +4,7 @@ import plotly.express as px
 
 # Set page title and configuration
 st.set_page_config(page_title='S3 Deep Archive Cost Calculator', layout='wide')
-st.title('S3 Deep Archive Cost Calculator (Direct Connect)')
+st.title('S3 Deep Archive Cost Calculator')
 
 # Initialize session state for all inputs
 if 'initialized' not in st.session_state:
