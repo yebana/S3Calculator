@@ -96,7 +96,7 @@ def calculate_monthly_costs(month, current_storage):
     
     # Calculate storage cost
     storage_cost = current_storage * storage_cost_per_gb
-    print(f"Storage cost for month {month}: {storage_cost}")
+    # print(f"Storage cost for month {month}: {storage_cost}")
     
     # Total cost
     total_cost = (storage_cost + put_cost + get_cost + delete_cost + 
