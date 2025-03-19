@@ -6,6 +6,8 @@ st.set_page_config(page_title='Calculadora VPC Endpoint', layout='wide')
 
 st.title('Calculadora de Costos VPC Endpoint')
 
+st.image("vpcdp.jpg", caption="EndPoints summary")
+
 with st.sidebar.form('vpc_calculator'):
     tarifa_hora = st.number_input('Tarifa por hora por AZ ($)', min_value=0.0, value=0.01, step=0.01)
     num_az = st.number_input('Número de AZ', min_value=1, value=1, step=1)
